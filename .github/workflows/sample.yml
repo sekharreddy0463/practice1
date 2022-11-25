@@ -10,8 +10,9 @@ jobs:
   steps: 
    - name: say hi
      run: |
-      echo 'hello'
-      pwd
+        echo "hello world"
+        pwd
+        free -h
 
 	
  
