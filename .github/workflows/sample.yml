@@ -7,7 +7,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: demo
-       run: |
+       run:|
         echo "hello world"
         pwd
         free -h			
