@@ -6,8 +6,8 @@ name: build
 runs-on: ubuntu-latest
 steps:
 - name: sample
-   run: |
-   echo "hello"
-   pwd
-   ls
+run: |
+  echo "hello"
+  pwd
+  ls
  
