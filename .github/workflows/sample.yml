@@ -4,8 +4,8 @@ on:
 jobs:
 name: build
 runs-on: ubuntu-latest
- steps:
- - name: sample
+steps:
+- name: sample
    run: |
    echo "hello"
    pwd
