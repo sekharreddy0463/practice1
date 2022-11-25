@@ -9,10 +9,10 @@ jobs:
   name: Echo
   steps: 
    - name: say hi
-      run: |
-       echo "hello world"
-       pwd
-       free -h
+     run: |
+      echo "hello world"
+      pwd
+      free -h
 
 	
  
