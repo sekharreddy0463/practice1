@@ -1,0 +1,14 @@
+name: Sample workflow
+
+on: 
+ push:
+ 
+jobs:
+ build-code:
+  runs-on: ubuntu-latest
+  name: Echo
+  steps: 
+   - name: say hi
+     run : |
+      echo 'hello'
+      pwd
