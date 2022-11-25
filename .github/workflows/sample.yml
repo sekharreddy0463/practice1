@@ -1,4 +1,3 @@
-			
 name: sample workflow
 
 on:
@@ -11,6 +10,7 @@ jobs:
        run: |
         echo "hello world"
         pwd
-        free -h
+        free -h			
+
 	
  
