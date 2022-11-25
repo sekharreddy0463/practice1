@@ -9,7 +9,7 @@ jobs:
   name: Echo
   steps: 
    - name: say hi
-     run : |
+     run: |
       echo 'hello'
       pwd
      
