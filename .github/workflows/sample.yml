@@ -1,14 +1,16 @@
-name: Sample demo
-on:
-  push:
+name: Sample workflow
+
+on: 
+ push:
+ 
 jobs:
-build:
-  runs-on: Ubuntu-latest
-  name: echo
-  steps:
-   - name: First_step
-     run: |
-      echo 'Hello'
+ build-code:
+  runs-on: ubuntu-latest
+  name: Echo
+  steps: 
+   - name: say hi
+     run : |
+      echo 'hello'
       pwd
 
 	
